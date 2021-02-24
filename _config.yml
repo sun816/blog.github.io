@@ -1,17 +1,18 @@
+
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://blog.bajinxianshen.cf
+url: https://mazhuang.org
 date_format: "ordinal"
-title: 大宝礁
-subtitle: "公众号：N/A"
-description: "人生得意须尽欢，莫使金樽空对月"  
-keywords: blog, sjp, miscellaneous  
+title: 码志
+subtitle: "公众号：闷骚的程序员"
+description: "马壮的个人博客，公众号：闷骚的程序员"
+keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: sun816/blogs.github.io
+repository: mzlogin/mzlogin.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -21,7 +22,7 @@ components:
     # 分享
     share:
         enabled: false
-    # 不算子访问统计
+    # 不蒜子访问统计
     busuanzi:
         enabled: true
         start_date: 2020-05-03
@@ -38,12 +39,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: sun
+author: Zhuang Ma
 organization: 
 organization_url: 
-github_username: sun816
-location: SH, China
-email: N/A
+github_username: mzlogin
+location: Wuhan, China
+email: chumpma@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -120,14 +121,14 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: sun816
+    owner: mzlogin
     repo: blog-comments
     oauth:
-        client_id: ??d2e1cbbd298958076462
-        client_secret: ??b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: d2e1cbbd298958076462
+        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: sun816
+    owner: mzlogin
     repo: blog-comments
     clientID: d2e1cbbd298958076462
     clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
