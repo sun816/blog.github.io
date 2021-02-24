@@ -107,4 +107,3 @@ collections:
     wiki:
         output: true
         permalink: /wiki/:path/
-	
